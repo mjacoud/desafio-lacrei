@@ -21,6 +21,7 @@ export const SubTitle = styled.p`
   font-size: 1.25rem;
   font-family: 'nunito-regular';
   line-height: 1.8rem;
+  margin-top: 2rem;
 
   @media (min-width: 500px) {
     font-size: 1rem;
@@ -33,7 +34,7 @@ export const SubTitle = styled.p`
 `
 
 export const SubTitleAlternative = styled.p`
-  margin-top: 0.875rem;
+  margin-top: 2rem;
   font-size: 0.875rem;
   font-family: 'nunito-regular';
   line-height: 1.4rem;
@@ -48,13 +49,11 @@ export const SubTitleAlternative = styled.p`
 
 export const Wrapper = styled.main`
   padding: 1.25rem;
-  max-width: 1366px;
 
   @media (min-width: 450px) {
     padding: 2.25rem 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   @media (min-width: 1040px) {

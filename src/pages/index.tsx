@@ -1,7 +1,7 @@
 import { Navbar } from '@/components/Navbar/Navbar'
 import { GlobalStyles } from '@/styles/globalStyle'
 
-import { Content, SubTitle, Title, Wrapper } from '@/styles/pages/home.styles'
+import { Content, SubTitle, Title, Wrapper } from '@/styles/pages/pages.styles'
 import {
   ButtonContainer,
   PrimaryButton,
@@ -36,7 +36,7 @@ export default function Home() {
             </SecondaryButton>
           </ButtonContainer>
         </Content>
-        <Image src={homeImg} width="400" height="400" alt="digital-doctor" />
+        <Image src={homeImg} width="555" height="421" alt="digital-doctor" />
       </Wrapper>
       <Footer />
     </>

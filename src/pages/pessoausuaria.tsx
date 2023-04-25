@@ -2,11 +2,12 @@ import { Navbar } from '@/components/Navbar/Navbar'
 import { GlobalStyles } from '@/styles/globalStyle'
 
 import {
+  Content,
   SubTitle,
   SubTitleAlternative,
   Title,
   Wrapper
-} from '@/styles/pages/home.styles'
+} from '@/styles/pages/pages.styles'
 import Image from 'next/image'
 import userImg from '../Assets/images/user.svg'
 import { Footer } from '@/components/Footer/Footer'
@@ -19,16 +20,16 @@ export default function pessoaUsuaria() {
       <GlobalStyles />
       <Navbar />
       <Wrapper>
-        <div>
+        <Content>
           <Title>Pessoa Usuária</Title>
           <SubTitleAlternative>
             A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento
             realizado por profissionais de qualidade e que atendam às suas
             necessidades de forma segura e acolhedora.
           </SubTitleAlternative>
-        </div>
+        </Content>
 
-        <Image src={userImg} width="400" height="400" alt="digital-doctor" />
+        <Image src={userImg} width="555" height="421" alt="digital-doctor" />
       </Wrapper>
       <Footer />
     </>

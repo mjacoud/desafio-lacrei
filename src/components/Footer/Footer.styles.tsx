@@ -4,6 +4,7 @@ export const FooterMenu = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin: 0 4rem;
 
   @media (min-width: 500px) {
     flex-direction: row;
@@ -15,6 +16,7 @@ export const SocialContainer = styled.div`
   display: flex;
   gap: 2rem;
   padding: 0.5rem 0;
+  margin: 0 4rem;
 
   @media (min-width: 500px) {
     padding: 1.75rem 0;
@@ -56,5 +58,6 @@ export const FooterWrapper = styled.footer`
     font-family: 'nunito-regular';
     font-size: 0.75rem;
     color: rgb(81, 81, 81);
+    margin: 0 4rem;
   }
 `
